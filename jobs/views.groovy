@@ -1,4 +1,6 @@
 listView('python') {
+    filterBuildQueue()
+    filterExecutors()
     description('Python pipelines')
     jobs {
         regex(/.*python.*/)
