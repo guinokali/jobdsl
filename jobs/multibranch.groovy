@@ -5,12 +5,13 @@ multibranchPipelineJob('python-deploy') {
     }
     branchSources {
         git {
+            id('123456789')
             remote("https://github.com/guinokali/Blog.git")
         }
     }
     orphanedItemStrategy {
         discardOldItems {
-            numToKeep(1)
+            numToKeep(20)
         }
     }
 }
