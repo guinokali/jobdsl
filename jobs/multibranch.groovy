@@ -1,5 +1,5 @@
 
-multibranchPipelineJob('lambdas-snaphosts') {
+multibranchPipelineJob('python-deploy') {
     triggers {
         periodic(1)
     }
