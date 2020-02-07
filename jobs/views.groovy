@@ -1,4 +1,4 @@
-listView('python') {
+listView('project-a/python') {
     filterBuildQueue()
     filterExecutors()
     description('Python pipelines')
