@@ -1,5 +1,5 @@
 project_name = "jenkins-pipeline-python"
-repo = "https://github.com/guinokali/guinokali.github.io.git"
+repo = "https://github.com/guinokali/Blog.git"
 repo_name = "repo"
 
 pipelineJob(project_name) {
